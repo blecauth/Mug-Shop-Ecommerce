@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caneca Colher</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/navstyle.css">  
+</head>
+<body>
+   <header>
+        <nav class="menu-hamburger">
+            <input id="menu-hamburguer" type="checkbox" />
+            <label for="menu-hamburguer">
+                <div class="menu">
+                    <span class="hamburguer"></span>
+                </div>
+            </label>
+            <ul class="menu-hamburguer-elements show">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#">Categorias</a>
+                </li>
+                <li>
+                    <a href="canecas.html">Canecas</a>
+                </li>
+                <li>
+                    <a href="#">Contato</a>
+                </li>
+                <li>
+                    <a href="#">Sobre</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="background-image"></div>
+  <div class="container2">
+    <div class="image-container">
+        <img src="imgs/canecacolher/canecacolherblack.jpeg" alt="Produto" id="product-image" class="product-image" width="300">
+    </div>
+    <div class="variation-buttons">
+        <button id="colherblack" onclick="changeImage('imgs/canecacolher/canecacolherblack.jpeg', 'colherblack')"></button>
+        <button id="colherred" onclick="changeImage('imgs/canecacolher/canecacolherred.jpeg', 'colherred')"></button>
+        <button id="colherorange" onclick="changeImage('imgs/canecacolher/canecacolherorange.jpeg', 'colherorange')"></button>
+        <button id="colherblue" onclick="changeImage('imgs/canecacolher/canecacolherblue.jpeg', 'colherblue')"></button>
+        <button id="colhergreen" onclick="changeImage('imgs/canecacolher/canecacolhergreen.jpeg', 'colgreen')"></button>
+        <button id="colherpink" onclick="changeImage('imgs/canecacolher/canecacolherpink.jpeg', 'colpink')"></button>
+        <button id="colheryellow" onclick="changeImage('imgs/canecacolher/canecacolheryellow.jpeg', 'colyellow')"></button>
+    </div>
+    <button id="select-image-button">Eu Quero essa!</button>
+</div>
+    <script>
+        function changeImage(imageSrc) {
+            document.getElementById('product-image').src = imageSrc;
+            document.getElementById('select-image-button').setAttribute('data-link', 'https://wa.me/5519993938752?text=Eu+quero+a+caneca');
+        }
+
+        document.getElementById('select-image-button').addEventListener('click', function() {
+            var link = this.getAttribute('data-link');
+            window.location.href = link;
+        });
+    </script>
+</body>
+</html>
