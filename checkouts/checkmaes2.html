@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Produto</title>
+    <link rel="stylesheet" href="check-css/checkout-style.css">
+    <link rel="stylesheet" href="../css/navstyle.css">  
+</head>
+<body>
+   <header>
+        <nav class="menu-hamburger">
+            <input id="menu-hamburguer" type="checkbox" />
+            <label for="menu-hamburguer">
+                <div class="menu">
+                    <span class="hamburguer"></span>
+                </div>
+            </label>
+            <ul class="menu-hamburguer-elements show">
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#">Categorias</a>
+                </li>
+                <li>
+                    <a href="../canecas.html">Canecas</a>
+                </li>
+                <li>
+                    <a href="#">Contato</a>
+                </li>
+                <li>
+                    <a href="#">Sobre</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container3">
+        <img src="check-imgs/camaes1.jpeg" alt="Nome do Produto">
+        <div class="check-desc1">
+        <h2>Caneca dia das Mães Florida</h2>
+        <p>Caneca de cerâmica na cor branca, caneca basica e ótima para presentear aquela pessoa que ama sem gastar muito!</p>
+        <p>Preço: R$ 28,00</p>
+        <!-- Adicione mais informações conforme necessário -->
+        <button id="butt1" onclick="adicionarAoCarrinho()">Comprar</button>
+        </div
+    </div>
+
+    <script>
+        function adicionarAoCarrinho() {
+            // Adicione aqui a lógica para adicionar o produto ao carrinho
+            alert('Produto adicionado ao carrinho!');
+        }
+    </script>
+</body>
+</html>

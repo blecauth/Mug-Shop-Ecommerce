@@ -1,0 +1,56 @@
+
+#purchase-form {
+   margin-top: 20px;
+}
+
+#purchase-form form {
+   display: flex;
+   flex-direction: column;
+   width: 300px;
+   margin: 0 auto;
+}
+
+#purchase-form label {
+   margin: 10px 0 5px;
+}
+
+#purchase-form input, #purchase-form select {
+   padding: 8px;
+   margin-bottom: 15px;
+}
+
+#purchase-form button {
+   padding: 10px;
+   background-color: #4CAF50;
+   color: white;
+   border: none;
+   cursor: pointer;
+}
+
+#purchase-form button:hover {
+   background-color: #45a049;
+}
+@media (max-width: 768px) {
+ body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+ }
+ 
+ .img-check img {
+      max-width: 320px;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 20px;
+   }
+}
+@media (min-width: 769px) {
+   body {
+      display: flex;
+      flex-direction: row;
+   }
+}
+#buy-button {
+   display: none;
+}

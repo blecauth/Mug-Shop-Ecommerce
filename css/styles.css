@@ -1,0 +1,330 @@
+.container {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-height: 0;
+    overflow: auto;
+    transition: max-height 0.3s ease;
+    overflow-y: auto;
+}
+.item {
+    margin-left: 30px;
+    margin: 4px;
+    width: 80px; /* Ajuste o tamanho conforme necessário */
+    overflow: auto; /* Adiciona uma barra de rolagem horizontal, se necessário */
+}
+.item img {
+    top: 90px;
+    width: auto; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+}
+.container2 {
+    top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.variation-buttons {
+    display: flex;
+    flex-direction: column;
+    top: 40%;
+}
+.variation-buttons button {
+    margin-bottom: 10px;
+    margin-right: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Torna o botão uma bolinha */
+    border: none; /* Remove a borda */
+    cursor: pointer;
+}
+/* Canecas tarja */
+.variation-buttons-tarja {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.variation-buttons-tarja button {
+    margin: 0 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+.variation-buttons-tarja button#tarjablack {
+   background-color: black;
+}
+.variation-buttons-tarja button#tarjared {
+   background-color: red;
+}
+.variation-buttons-tarja button#tarjalightblue {
+   background-color: lightblue;
+}
+.variation-buttons-tarja button#tarjablue {
+   background-color: blue;
+}
+.variation-buttons-tarja button#tarjagreen {
+   background-color: green;
+}
+.variation-buttons-tarja button#tarjalightgreen {
+   background-color: lightgreen;
+}
+.variation-buttons-tarja button#tarjaorange {
+   background-color: orange;
+}
+.variation-buttons-tarja button#tarjayellow {
+   background-color: yellow;
+}
+.variation-buttons-tarja button#tarjapink {
+   background-color: pink;
+}
+/* continuar as cores \/ */
+/* Canecas glitter*/
+.variation-buttons-glit {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.variation-buttons-glit button {
+    margin: 0 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.variation-buttons-glit button#glitprata {
+   background-color: #686868d2;
+}
+.variation-buttons-glit button#glitgold {
+   background-color: #f7ba00d2;
+}
+.variation-buttons-glit button#glitlightblue {
+   background-color: #00a99a;
+}
+.variation-buttons-glit button#glitblue {
+   background-color: #0044fbd7;
+}
+.variation-buttons-glit button#glitgreen {
+   background-color: #036500;
+}
+.variation-buttons-glit button#glitpink {
+   background-color: #ff32bad2;
+}
+.variation-buttons-glit button#glitpurple {
+   background-color: #8c00ec;
+}
+.variation-buttons-glit button#glitbrown {
+   background-color: #554018;
+}
+
+/* Canecas peroladas*/
+.variation-buttons button#peroprata {
+    background-color: #686868;
+}
+.variation-buttons button#perogold {
+   background-color: #f2b600;
+}
+.variation-buttons button#perogreen {
+   background-color: #0a8800;
+}
+.variation-buttons button#peroblue {
+   background-color: #002da2;
+}
+.variation-buttons button#peropurple {
+   background-color: #8d00aa;
+}
+.variation-buttons button#peropink {
+   background-color: #ff3da7;
+}
+/* Canecas Peroladas*/
+/* Canecas de colher */
+.variation-buttons button#colherblack {
+   background-color: black;
+}
+.variation-buttons button#colherred {
+   background-color: red;
+}
+.variation-buttons button#colherorange {
+   background-color: #ff550b;
+}
+.variation-buttons button#colherblue {
+   background-color: blue;
+}
+.variation-buttons button#colhergreen {
+   background-color: green;
+}
+.variation-buttons button#colherpink {
+   background-color: pink;
+}
+.variation-buttons button#colheryellow {
+   background-color: yellow;
+}
+
+/* canecas cromo*/
+
+.variation-buttons button#cromoprata {
+    background-color: #686868;
+}
+.variation-buttons button#cromored {
+   background-color: #b00000;
+}
+.variation-buttons button#cromogreen {
+   background-color: #0ec300ff;
+}
+.variation-buttons button#cromopurple {
+   background-color: #8d008a;
+}
+.variation-buttons button#cromobronze {
+   background-color: #ee750a;
+}
+.variation-buttons button#cromopink {
+   background-color: #ff1f99;
+}
+/* canecas cromo */
+
+.variation-buttons button#black, #corablack {
+    background-color: black;
+}
+.variation-buttons button#red, #corared {
+    background-color: red;
+}
+.variation-buttons button#blue, #corablue {
+    background-color: blue;
+}
+.variation-buttons button#green, #coragreen {
+    background-color: green;
+}
+.variation-buttons button#yellow, #corayellow {
+    background-color: yellow;
+}
+.variation-buttons button#pink, #corapink {
+    background-color: pink;
+}
+.variation-buttons button#corawhite {
+   background-color: #ffffff;
+   border: 2px solid black;
+}
+.image-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.variation-buttons {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.variation-buttons button {
+    margin: 0 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+}
+/* config id do tamanho dos itens pos main */
+#product-image {
+    top: 170px;
+    border: 20px black;
+    order: -1;
+    margin-bottom: 55px;
+    width: 280px;
+}
+#select-image-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 430px; /* Distância do fundo da página */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Ajusta para a metade da largura do botão */
+}
+.item {
+    margin: 4px;
+    width: 80px;
+    overflow: auto;
+}
+.item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container2 {
+    position: relative;
+    z-index: 2;
+    margin-top: 10px; /* adjust this value to move the container down */
+}
+body {
+    margin-left: 10px;
+    padding: 0;
+    height: 100%;
+}
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(224,224,224);
+    background-size: cover;
+    background-position: center;
+    z-index: -5;
+}
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start; /* Alinhar os itens na parte superior */
+}
+
+.grid-item {
+    margin: 10px; /* Espaçamento entre os itens */
+    width: calc(33.33% - 20px); /* 3 colunas, margem entre os itens */
+}
+
+@media screen and (min-width: 769px) {
+    .grid-item {
+       margin: 20px;
+       width: calc(20% - 20px); /* 4 colunas em telas maiores */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .grid-item {
+        width: calc(40% - 20px); /* 2 colunas em telas menores */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .grid-item {
+       display: flex;
+       justify-content: center;
+       width: calc(100% - 10px); /* 1 coluna em telas pequenas */
+    }
+}
+.grid-item img {
+    border: 4px solid black;
+    background-color: white;
+    width: 80%;
+    height: auto;
+}
